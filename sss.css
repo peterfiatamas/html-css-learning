@@ -1,0 +1,21 @@
+body{
+    background-color: red;
+    color: yellow;
+}
+h1{
+    color: blue; 
+    text-align: center;
+    background-color: green;
+}
+td{
+background-color:chartreuse;
+color: red;
+}
+th{
+    background-color: white;
+    color: red;
+}
+a {
+    background-color: white;
+}
+   
