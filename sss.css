@@ -10,21 +10,37 @@ h1{
 td{
 background-color:chartreuse;
 color: red;
+padding: 5px;
+border: 1px solid black;
+margin: 2px;
 }
 th{
     background-color: white;
     color: red;
+    border: 1px solid black;
 }
 a {
-    background-color: white;
+    background-color: yellow;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 5px;
+    display: inline;
+    
 }
 .kephelye{
     text-align: center;
+    padding: 20px;
+    border: 2px solid blue;
+    margin: 10px;
+    display: auto;
 }
 .masik{
     text-align: right;
 }
 form{
     background-color: green;
-    text-align: center;
+    text-align:center;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 5px;
 }
