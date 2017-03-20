@@ -1,0 +1,21 @@
+#fej{
+    background-color: red;
+    padding: 30px;
+    border: 0px;
+    margin: 0px;
+}
+#test{
+  background-color: white;
+  padding: 15px;
+  width: 50%;
+}
+#lab{
+    background-color: orange;
+    padding: 30px;
+    border: 0px;
+    margin: 0px;
+}
+#test2{
+    width: 50%;
+    margin-left: 50%;
+}
