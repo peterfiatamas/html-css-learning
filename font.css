@@ -1,0 +1,21 @@
+#p2{
+    color: red;
+    font-size: xx-large;
+    font: arial;
+    font-style: italic;
+    text-align: center;
+    text-decoration: overline;
+}
+#p1{
+    font-size: xx-large;
+    font-style: italic;
+    font: arial;
+    text-decoration: underline;
+    text-align: right;
+    padding: 10px 300px 10px 0;
+    cursor: pointer;
+}
+#kep{
+    cursor: pointer;
+}
+
