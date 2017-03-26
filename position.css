@@ -1,0 +1,54 @@
+
+.sarok{
+    background-color: yellow;
+    padding: 20px;
+    color: green;
+    font-size: 300%;
+    position: fixed;
+}
+
+.felso-bal-sarok{
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+.felso-jobb-sarok{
+    right: 0;
+    top: 0;
+}
+.also-jobb-sarok{
+    right: 0;
+    bottom: 0;
+}
+.also-bal-sarok{
+    left: 0;
+    bottom: 0;
+}
+.relativ{
+    background-color: red;
+    color: white;
+    position: relative;
+    height: 400px;
+    z-index: 998px;
+}
+.absolut{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    left: 0;
+    text-align: center;
+}
+.kozep{
+    background-color: green;
+    color: white;
+}
+.absolut-bal-felso{
+    background-color: black;
+    color: yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 999px;
+    
+}

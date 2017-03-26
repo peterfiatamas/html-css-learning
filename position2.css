@@ -1,0 +1,45 @@
+.bal-felso-sarok{
+    background-color: red;
+    color: yellow;
+    left: 120px;
+    top: 20px;
+    position: fixed;
+    padding: 20px;
+    border: 0;
+    margin: 10px;
+    z-index: 998;
+}
+.film{
+    text-align: center;
+    margin: 20px;
+}
+#cim{
+    font-size: 200%;
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+}
+.filmsoveg{
+    text-align: center;
+}
+h2{
+    background-color: goldenrod;
+    color: red;
+    border: 0;
+    padding: 10px;
+    margin: 0px 1200px 10px 0px;
+}
+.relativ{
+    background-color: burlywood;
+    position: relative;
+    height: 150px;
+    z-index: 999;
+}
+#click{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: green;
+    color: yellow;
+    cursor: pointer;
+}

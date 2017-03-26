@@ -12,11 +12,12 @@
     text-align: center;
 }
 #lab{
-    display: inline;
-    background-color: green;
+    text-align: center;
+    clear: both;
     padding: 20px;
+}
+.vege{
+    background-color: green;
     border: 2px solid black;
-    margin: 50px 0px 10px 665px;
-    float: left;
-    
+    padding: 20px;
 }
