@@ -1,0 +1,32 @@
+h1{
+    background-color: red;
+    color: yellow;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 0;
+    text-align: center;
+}
+#hely{
+    position: fixed;
+    top: 40px;
+    left: 50px;
+    background-color: yellow;
+    z-index: 1000;
+}
+#place{
+    position: relative;
+    background-color: green;
+    top: 20px;
+    right: 10;
+    height: 100px;
+    width: 100px;
+    z-index: 998;
+}
+#abs{
+    position: absolute;
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    top: 20px;
+    bottom: 200px;
+}

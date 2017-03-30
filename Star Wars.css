@@ -1,0 +1,64 @@
+.hasab-elso{
+    width: 25%;
+    float: left;
+}
+.hasab-masodik{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.hasab-harmadik{
+    width: 25%;
+    float: left;
+}
+h1{
+    background-color: black;
+    padding: 0;
+    border: 0;
+    margin: 0 0 20px 0;
+    display: block;
+    color: gold;
+    text-align: center;
+}
+
+
+table, td, th{
+    border: 1px solid black; 
+}
+body{
+    background-color: #3388b9;
+}
+th{
+    background-color: #0D4C70;
+}
+td{
+    background-color: #0BA2FA;
+}
+#erdekes{
+    background-color: #0D4C70;
+    padding: 10px;
+    text-align: center;
+    color: gold;
+}
+#star{
+    background-color: #0D4C70;
+    color: gold;
+    text-align: center;
+}
+#last{
+    font-size: 125%;
+    color: silver;
+    position: relative;
+    top: auto;
+    left: 200px;
+}
+#mosoly{
+    position: fixed;
+    top: 50px;
+    left: 70px;
+}
+#mosolyka{
+    position: absolute;
+    top: 15px;
+    left: 300px;
+}
