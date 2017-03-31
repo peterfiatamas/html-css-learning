@@ -1,0 +1,49 @@
+.soregy{
+    width: 25%;
+    float: left;
+}
+.sorketo{
+    width: 25%;
+    float: left;
+}
+.sorharom{
+    width: 50%;
+    float: left;
+}
+.cim{
+    background-color: orange;
+    margin: 10px;
+}
+#tabla{
+    background-color: orange;
+    margin: 10px;
+    text-align: center;
+}
+#video{
+    text-align: center;
+}
+p{
+    margin: 10px;
+    color: gold;
+}
+.szoveg{
+    position: relative;
+    left: 30px;
+}
+#kep{
+    text-align: center;
+}
+body{
+    background-image: url("http://static.teatroallascala.org/static/upload/8e6/8e69400349ed8c70ab07e7be52cb0c71.jpg"); 
+    background-repeat: repeat;
+}
+#repertoar{
+    font-size: 150%;
+    text-decoration: underline;
+}
+h1{
+    background-color: orange;
+    display: inline;
+    position: relative;
+    left: 200px;
+}
