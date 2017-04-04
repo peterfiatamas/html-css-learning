@@ -1,0 +1,43 @@
+.hasab{
+    width: 50%;
+    float: left;
+    
+}
+.sorok{
+    margin: 10px;
+}
+h1, h2{
+    background-color: red;
+    border: 3px double black;
+    display: inline;
+    position: relative;
+    left: 40px;
+}
+#video{
+    position: relative;
+    left: 30px;
+    margin: 20px;
+}
+#film{
+    text-align: center; 
+    margin: 20px;
+}
+p{
+    column-count: 3;
+    column-gap: 10px;
+    column-rule: 2px solid black;
+    margin: 5px;
+}
+#vs{
+    background-color: red;
+    padding: 10px;
+    border: 3px solid blue;
+    margin: 1px;
+    position: absolute;
+    display: inline;
+    left: 48%;
+    top: 55%;
+}
+body{
+    background-color: buttonface;
+}
