@@ -1,0 +1,56 @@
+.test-c, .test-p{
+    width: 50%;
+    float: left;
+    background-color: #BDE3F9;
+    box-sizing: border-box;
+}
+h1{
+    font-weight: bold;
+    background-color: red;
+    padding: 10px;
+    border: dotted;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.test-c{
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 3px solid red;
+    border-left: 8px solid   #BDE3F9;
+}
+.kep{
+    width: 45%;
+    float: left;
+}
+.szoveg{
+    width: 55%;
+    float: left;
+}
+h2{
+    background-color: green;
+    display: inline;
+    padding: 10px;
+    border: 3px solid black;
+    margin-bottom: 10px;
+    position: relative;
+}
+.komment-fuggoleges{
+    width: 8px;
+    word-wrap: break-word;
+    position: relative;
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+    border: 3px solid black;
+    top:30px;
+    font-weight: bolder;
+}
+body{
+    background-color:  #BDE3F9;
+}

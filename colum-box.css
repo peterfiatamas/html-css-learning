@@ -24,6 +24,8 @@ p{
 }
 #videok{
     text-align: center;
+    border-left: 3px solid black;
+    margin-left: 15%;
 }
 body{
     background-color: gray;
@@ -31,11 +33,19 @@ body{
 .vdik{
     margin: 11px 0 0 0;
 }
-#fugoleges{
+.fuggoleges-keret{
     background-color: red;
     padding: 10px;
     margin: 0 815px 0 0;
     position: fixed;
     top: 80px;
     left: 45%;
+    border-radius: 5px;
+    border-top-left-radius: 15px;
+}
+.fuggoleges{
+    width: 10px;
+    word-wrap: break-word;
+    text-align: center;
+    font-weight: bold;
 }
