@@ -1,0 +1,86 @@
+.tarolo-a, .tarolo-b, .tarolo-c{
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+}
+.tarolo-a{
+    background-color: orange;
+}
+.kep-a, .kep-a-ketto{
+    width: 150px;
+    height: auto;
+}
+.kep-a{
+    position: relative;
+    left: 50px;
+}
+.kep-a-ketto{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+.szoveg{
+    column-count: 2;
+    column-gap: 5px;
+    column-rule: 2px solid black;
+    column-width: 30px;
+}
+.szovegdoboz{
+    width: 16%;
+    position: absolute;
+    left: 205px;
+    top: 110px;
+    margin-left: 10px;
+    background-color: orange;
+}
+h1{
+    background-color: red;
+    padding: 10px;
+    border: 3px dotted black;
+}
+.kep-b, .kep-b-ketto{
+    width: 150px;
+    height: auto;
+    margin: 5px;
+}
+.kep-b-ketto{
+    height: 113px;
+}
+.kepdoboz-b{
+    display: flex;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+.szoveg-b{
+    column-count: 2;
+    column-gap: 5px;
+    column-rule: 3px double black;
+    background-color: orange;
+}
+hr{
+    background-color: orange;
+}
+.tarolo-b{
+    background-color: orange;
+}
+body{
+    background-color: orange;
+}
+.kep-c, .kep-c-ketto{
+    width: 150px;
+    height: auto;
+    float: left;
+}
+.kep-c{
+    margin-right: 5px;
+}
+.kep-c-ketto{
+    margin-top: 100px;
+}
+p{
+   column-count: 2;
+   
+   
+}

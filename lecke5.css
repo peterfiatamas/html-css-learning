@@ -1,0 +1,56 @@
+.test-e{
+    width: 50%;
+    float: left;
+}
+.test-k{
+    width: 50%;
+    float: left;
+}
+#kep{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+#kep-utolso{
+    width: 100px;
+    height:100px;
+    margin: 10px;
+}
+body{
+    background-color: red;
+}
+.fl-kontaner{
+    height: 500px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: orange;
+}
+p{
+    column-count: 3;
+    column-gap: 10px;
+    column-rule: 2px solid black;
+}
+h1{
+    background-color: blue;
+    padding: 10px;
+    border: 2px dotted black;
+    text-align: center;
+}
+.video{
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+}
+.vidik-kontener{
+    background-color: green;
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: flex-end;
+}
+#kep-e{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}

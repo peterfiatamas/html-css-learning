@@ -24,7 +24,7 @@ td{
     border: 2px solid black;
     background-color: #D1E9F7;
 }
-img{
+#trombita{
     margin-left: 5px;
     width: 70%;
     height: auto;
@@ -44,7 +44,62 @@ body{
    height: 315px;
 }
 #logo{
+    width: 100px;
+    position: absolute;
+    top: 40%;
+    left: 82%;
+}
+.ketkep{
     position: relative;
-    left: 100px;
-    top: 30px;
+}
+.ketkep-keto{
+    
+}
+#logo-keto{
+    float: left;
+    width: 100px;
+    margin-left: 80px;
+    margin-top: 120px;
+}
+#trombita-keto{
+    width: 70%;
+    margin: 5px;
+    float: left;
+}
+.szoveg{
+    clear: both;
+}
+.ketkep-harom{
+    clear: both;
+}
+#trombita-harom{
+    width: 100%;
+}   
+#logo-harom{
+    width: 100px;
+    vertical-align: middle;
+    margin-left: 67px;
+}
+.tromb-keret-harom{
+    width: 70%;
+    float: left;
+}
+.logo-keret-harom{
+    width: 30%;
+    float: left;
+    text-align: center;
+    line-height: 337px;
+}
+.ketkep-negy{
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#trombita-negy{
+    width: 70%;
+}
+#logo-negy{
+    width: 100px;
+    margin-right: 22px;
 }

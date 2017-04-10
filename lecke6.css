@@ -1,0 +1,86 @@
+.test-a, .test-b, .test-c{
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+}
+.test-a, .test-b{
+    background-color: red;
+}
+.test-b, .test-c{
+    border-left: 3px solid red;
+}
+body{
+    background-color: red;
+}
+.kep{
+    width: 100px;
+    height: auto;
+    margin: 5px;
+}
+.tarolo-e{
+    height: 250px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video{
+    width: 45%;
+    height: auto;
+    margin: 5px;
+}
+.tarolo-m{
+    height: 250px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: orange;
+}
+h1{
+    background-color: blue;
+    padding: 10px;
+    border: 3px dotted black;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.szoveg{
+    column-count: 3;
+    column-gap: 5px;
+    column-rule: 2px solid black;
+}
+.kep-b{
+    width: 100px;
+    height: auto;
+    margin: 5px;
+}
+.tarolo-h{
+    height: 250px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kep-b{
+    width: 45%;
+    height: auto;
+    margin: 5px;
+}
+.tarolo-n{
+    height: 250px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kep-c{
+    width: 125px;
+    height: auto;
+    margin: 5px;
+}
+.tarolo-o{
+    height: 250px;
+    display: flex;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+}
