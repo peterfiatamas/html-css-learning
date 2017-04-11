@@ -1,0 +1,58 @@
+.hatvan{
+    width: 60%;
+    float: left;
+}
+.negyven{
+    width: 40%;
+    float: left;
+    background-color: white;
+    margin-top: 10px;
+}
+.fejlec{
+    display: flex;
+    height: 55px;
+    background-color: white;
+}
+body{
+    background-color: #E5E8EA;
+}
+.youtube{
+    width: 60px;
+    height: auto;
+    position: absolute;
+    left: 50px;
+    top: 15px;
+}
+form{
+    position: absolute;
+    left: 1200px;
+    top: 22px;
+}
+button{
+    background-color: #126db3;
+    position: absolute;
+    left: 1300px;
+    top: 22px;
+    border: none;
+    padding: 5px;
+    color: white;
+    border-radius: 2px;
+}
+.kepek{
+    width: 44%;
+    float: left;
+    background-color: white;
+    margin-top: 10px;
+}
+.szoveg{
+    width: 56%;
+    float: left;
+    background-color: white;
+    margin-top: 15px;
+}
+.film-kepek{
+    width: 220px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+}
