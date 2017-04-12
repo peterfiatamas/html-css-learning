@@ -1,0 +1,20 @@
+.gomb{
+    background-color: yellow;
+    border: 3px double black;
+    cursor: pointer;
+}
+.kep{
+    width: 100px;
+    height: auto;
+}
+body{
+    background-color: white;
+}
+#vendeg{
+    background-color: orange;
+    border: 3px dotted black;
+}
+.utolso{
+    background-color: red;
+    border: 3px solid black;
+}

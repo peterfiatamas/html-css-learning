@@ -44,9 +44,20 @@ button{
 #feliratkozas{
     background-color: red;
     color: white;
-    padding: 5px;
-    border-radius: 0 0 5px 5px;
+    padding: 3px;
+    border-radius: 3px 0 0 3px;
     position: relative;
+    left: 75px;
+    top: -50px;
+}
+#logo-feliretkozas{
+    display: flex;
+    align-items: center;
+}
+#play{
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
 }
 .kep-szoveg{
     float: right;
