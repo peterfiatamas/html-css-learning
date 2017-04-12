@@ -1,0 +1,138 @@
+.hatvan{
+    width: 60%;
+    float: left;
+}
+.negyven{
+    width: 30%;
+    float: left;
+    background-color: white;
+    margin-top: 10px;
+}
+.tiz{
+    width: 5%;
+}
+.fejlec{
+    display: flex;
+    height: 55px;
+    background-color: white;
+}
+body{
+    background-color: #E5E8EA;
+}
+.youtube{
+    width: 60px;
+    height: auto;
+    position: absolute;
+    left: 50px;
+    top: 15px;
+}
+form{
+    position: absolute;
+    left: 1200px;
+    top: 22px;
+}
+button{
+    background-color: #126db3;
+    position: absolute;
+    left: 1300px;
+    top: 22px;
+    border: none;
+    padding: 5px;
+    color: white;
+    border-radius: 2px;
+}
+#feliratkozas{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+}
+.kep-szoveg{
+    float: right;
+    position: relative;
+    top: 25px;
+    right: 22px;
+}
+.kep-szoveg-vonalalatt{
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 40px;
+}
+.kep-szoveg-vonalalatt-utazok{
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 34px;
+}
+
+
+.film-kepek{
+    width: 220px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.film-kepek-vonalalatt{
+    width: 220px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.film-kepek-vonalalatt-utazok{
+    width: 220px;
+    height: 140px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.magassag{
+    height: 133px;
+}
+.magassag-k{
+    margin-top: 15px;
+    height: 133px;
+}
+#interstelar{
+    width: 780px;
+    height: 410px;;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#interstelar-alattidoboz{
+    width: 780px;
+    height: 150px;;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: white;
+}
+#interstelar-szoveg{
+    padding: 10px;
+    margin: 5px;
+    font-size: 130%;
+}
+#interstelar-logo{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 15px;
+}
+#felhasznalo-logo{
+    position: relative;
+    left: 75px;
+    top: -55px;
+}
+
+.star-szoveg{
+    float: left;
+}
+.kepek-szoveg-tarolo{
+    background-color: white;
+    width: 470px;
+}
+
+#kovetkezo{
+    position: relative;
+    left: 20px;
+    top: 15px;
+}
