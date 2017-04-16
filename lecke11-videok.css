@@ -1,0 +1,64 @@
+.video-tarolo{
+    background-color: white;
+    width: 800px;
+    height: auto;
+    margin-left: 300px;
+}
+body{
+    background-color: #cccccc;
+}
+.cim{
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-style: oblique;
+    font-size: 150%;
+}
+.felvetelek{
+    width: 360px;
+    height: 215px;
+    margin-left: 220px;
+}
+.felso-kontainer{
+    height: 70px;
+    background-color: white; 
+    margin-bottom: 10px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left: 10px;
+}
+#nev{
+    position: absolute;
+    font-style: oblique;
+    font-size: 150%;
+    float: left;
+    top: 50px;
+    left: 80px;
+}
+.felso-tarolo{
+    background-color: white;
+    width: 400px;
+    height: 70px;
+    margin-left: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    margin: 10px;
+    font-weight: bold;
+    color: black;
+}
+button{
+    position: relative;
+    left:1200px;
+    top: -50px;
+}
+.vissa{
+    margin-left: 10px;
+}

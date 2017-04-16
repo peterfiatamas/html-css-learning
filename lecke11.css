@@ -1,0 +1,99 @@
+.test{
+    width: 60%;
+    float: left;
+}
+.test-negyven{
+    width: 40%;
+    float: left;
+}
+.felso-kontainer{
+    height: 70px;
+    background-color: white; 
+    margin-bottom: 10px;
+}
+.trombitaskep{
+    width: 150px;
+    height: auto;
+    margin-left: 60px;
+    margin: 40px;
+}
+video{
+    width: 300px;
+    height: auto;
+    margin: 20px;
+}
+.kontainer{
+    display: flex;
+    height: 200px;
+    background-color: white;;
+    align-items: center;
+    justify-content: center;
+}
+.kontainer-ketto{
+    height: 400px;
+    background-color: white;
+    margin-top: 10px;
+    column-count: 2;
+    column-gap: 10px;
+}
+body{
+    background-color: #cccccc;
+}
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left: 10px;
+}
+#nev{
+    position: absolute;
+    font-style: oblique;
+    font-size: 150%;
+    float: left;
+    top: 90px;
+    left: 20px;
+}
+.felso-tarolo{
+    background-color: white;
+    width: 400px;
+    height: 70px;
+    margin-left: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    margin: 10px;
+    font-weight: bold;
+    color: black;
+}
+.menu:hover{
+    color: #666666;
+}
+button{
+    position: relative;
+    left:1200px;
+    top: -50px;
+}
+.jobb-tarolo{
+    width: 500px;
+    background-color: white;
+    height: 600px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.repertoar{
+    column-count: 2;
+    column-gap: 20px;
+    column-rule: 20px;
+}
+.repertoar-cim{
+    font-size: 150%;
+    font-style: oblique;
+    margin: 10px;
+}
