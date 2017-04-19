@@ -1,8 +1,10 @@
 .video-tarolo{
     background-color: white;
-    width: 800px;
+    width: 100%;
+    text-align: center;
+    max-width: 800px;
     height: auto;
-    margin-left: 300px;
+    margin: 0 auto;
 }
 body{
     background-color: #cccccc;
@@ -16,49 +18,97 @@ body{
     font-size: 150%;
 }
 .felvetelek{
-    width: 360px;
-    height: 215px;
-    margin-left: 220px;
+    max-width: 360px;
+    width: 100%;
+    height: 203px;
 }
 .felso-kontainer{
-    height: 70px;
     background-color: white; 
     margin-bottom: 10px;
+    overflow: auto;
 }
 .logo{
     width: 70px;
     height: 70px;
-    float: left;
     margin-left: 10px;
 }
 #nev{
-    position: absolute;
     font-style: oblique;
     font-size: 150%;
-    float: left;
-    top: 50px;
-    left: 80px;
+    margin-top: 20px;
+    display: inline;
 }
 .felso-tarolo{
     background-color: white;
-    width: 400px;
     height: 70px;
-    margin-left: 500px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .menu{
-    display: flex;
+    text-decoration: none;
     margin: 10px;
     font-weight: bold;
     color: black;
 }
-button{
-    position: relative;
-    left:1200px;
-    top: -50px;
+.menu-active{
+    color: orange;
 }
-.vissa{
-    margin-left: 10px;
+.menu:hover{
+    color: #666666;
+}
+button{
+    background-color: #E85F4F;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+button:hover{
+    background-color: #666666;
+}
+
+
+.test{
+    clear: both;
+}
+.menu-tarolo, .logotarolo, .bejelentkezestarolo{
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px){
+    .menu-tarolo{
+        width: 75%;
+        float: left;
+        height: 70px;
+    }
+    .bejelentkezestarolo{
+        width: 25%;
+        float: left;
+        height: 70px;
+        text-align: right;
+    }
+}
+@media screen and (min-width: 1170px){
+    .menu-tarolo, .logotarolo, .bejelentkezestarolo{
+        width: 33%;
+        float: left;
+        line-height: 70px;
+        text-align: left;
+    }
+    .felso-kontainer{
+        height: 70px;
+        overflow: hidden;
+    }
+    .logo, #nev{
+        float: left;
+    }
+    .bejelentkezestarolo{
+        text-align: right;
+    }
+    .felso-tarolo{
+        justify-content: center;
+    }
 }
