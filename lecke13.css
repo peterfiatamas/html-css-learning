@@ -1,0 +1,55 @@
+.fejlec{
+    background-color: #24292E;
+    height: 50px;
+    box-sizing: border-box;
+}
+.semmi-tarolo{
+    width: 40%;
+    color: white;
+    float: left;
+}
+.menu-tarolo{
+    width: 60%;
+    float: left;
+    color: white;
+   /* margin-left: 475px;*/
+}
+.menupontok:hover{
+    background-color: #404448;
+    cursor: pointer;
+    color: #ffff99;
+}
+.menupontok:active{
+    color: red;
+}
+.menupontok{
+    color: white;
+    font-size: 100%;
+    font-style: oblique;
+    float: left;
+    padding: 5px;
+    border: 1px;
+    margin: 10px;
+}
+#gomb{
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+#gomb:hover{
+    background-color: #ffff99;
+    cursor: pointer;
+}
+#gomb:active{
+    background-color: green;
+}
+body{
+    background-color: #DBEDFF;
+}
+
+@media screen and (min-width: 885px){
+    .menupontok{
+       
+    }
+}

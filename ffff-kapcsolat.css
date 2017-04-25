@@ -1,0 +1,76 @@
+.semmi-tarolo{
+    width: 40%;
+    float: left;
+    margin-top: 15px;
+}
+.menu-tarolo{
+    width: 60%;
+    float: left;
+}
+.fejlec{
+    background-color: #24292E;
+    height: 50px;
+}
+.menupontok:hover{
+    background-color: #404448;
+    cursor: pointer;
+    color: #ffff99;
+}
+.menupontok:active{
+    color: red;
+}
+.menupontok{
+    color: white;
+    font-size: 100%;
+    font-style: oblique;
+    float: left;
+    padding: 5px;
+    border: 1px;
+    margin: 10px;
+}
+#gomb{
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+#gomb:active{
+    background-color: green;
+}
+.bejelentkezes-tarolo{
+    width: 800px;
+    background-color: #24292E;
+    margin-top: 100px;
+    height: auto;
+    position: absolute;
+    left: 325px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+body{
+    background-color: #DBEDFF;
+}
+.kapcsolat-tarolo{
+    width: 800px;
+    background-color: #24292E;
+    margin-top: 100px;
+    height: 400px;
+    position: absolute;
+    left: 325px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.lakcim{
+    font-size: 150%;
+    margin-top: 80px;
+}
+.mail{
+    font-size: 125%;
+}
+.samuraj-logo{
+    width: 295px;
+    height: 195px;
+}

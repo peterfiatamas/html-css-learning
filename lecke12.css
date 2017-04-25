@@ -39,10 +39,12 @@ body{
     margin: 50px 10px 0 10px;
     max-width: 100%;
     height: auto;
+    padding: 10px;
 }
 .test-k-tarolo{
     background-color: white;
     margin: 50px 10px 0 10px;
+    padding: 10px;
 }
 .kep{
     max-width: 55%;
@@ -70,9 +72,9 @@ p{
     #szoveg{
         margin-left: 0;
     }
-    .test-k-tarolo{
-        float: left;
-        background-color: white;
-        margin-left: 100px;
+    .test-e, .test-k{
+        width: 100%;
+        float: none;
     }
+
 }

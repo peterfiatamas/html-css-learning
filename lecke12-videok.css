@@ -1,0 +1,44 @@
+.cim-menu-tarolo{
+    background-color: white;
+    font-size: 150%;
+    font-style: oblique;
+    height: 50px;
+}
+.cim-resz{
+    width: 60%;
+    float: left;
+}
+.gomb-resz{
+    width: 40%;
+    float: left;
+}
+.gomb{
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    width: 60px;
+}
+.gomb:hover{
+    background-color: #00ff66;
+}
+.gomb:active{
+    color: red;
+    background-color: greenyellow;
+}
+body{
+    background-color: #F1F1F1;
+
+}
+.videok{
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
+}
+.video-tarolo{
+    width: 800px;
+    margin-left: 300px;
+    background-color: white;
+    text-align: center;
+    margin-top: 50px;
+}
