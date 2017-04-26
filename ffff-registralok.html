@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-    <head><link href="ffff-bejelentkezes.css" type="text/css" rel="stylesheet" />
-        <title>ffff-bejelentkezés</title>
+    <head><link href="ffff-registralok.css" type="text/css" rel="stylesheet" />
+        <title>ffff-registralok</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
@@ -10,7 +10,8 @@
             <div class="semmi-tarolo"></div>
             <div class="menu-tarolo">
                 <a href="file:///C:/Users/Tam%C3%A1s/Documents/NetBeansProjects/HTML5Application/public_html/ffff.html">
-                    <div class="menupontok">Főoldal</div></a>
+                    <div class="menupontok">Főoldal</div>
+                </a>
                 <a href="file:///C:/Users/Tam%C3%A1s/Documents/NetBeansProjects/HTML5Application/public_html/ffff-rolunk.html">
                     <div class="menupontok">Rólunk</div>
                 </a>
@@ -28,19 +29,27 @@
                 </a>
             </div>
         </div>
-        <div class="bejelentkezes-tarolo">
-            <form>
-                <p><label for="nev">Név </label><br />
-                    <input type="text" name="nev" /></p>
-
-                <label for="password">Jelszó</label><br />
-                <input type="password" name="password" />   
-
-                <p><input type="submit" name="submit" /></p>
-                <a href="file:///C:/Users/Tam%C3%A1s/Documents/NetBeansProjects/HTML5Application/public_html/ffff-registralok.html?nev=&password=&password=&submit=K%C3%BCld%C3%A9s">
-                    <button type="button">Regisztrálok</button>
-                </a>
-            </form>
+         <div class="test">
+            <div class="registralok-tarolo">
+                <form>
+                    <label for="nev">Név</label><br />
+                    <input type="text" name="nev"><br />
+                    
+                    <label for="password">Jelszó</label><br />
+                    <input type="password" name="password"><br />
+                    
+                     <label for="password">Jelszó megerősítése</label><br />
+                    <input type="password" name="password"><br />
+                    
+                    <label for="checkbox">Neme</label>
+                    <input type="checkbox" name="checkbox">Férfi
+                    <input type="checkbox" name="checkbox">Nő<br />
+                    
+                    <input value="Küldés" type="submit" name="submit">
+                    <input value="Törlés" type="reset" name="reset">
+                    
+                </form>
+            </div>    
         </div>
     </body>
 </html>
