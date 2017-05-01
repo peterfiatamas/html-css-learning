@@ -4,13 +4,16 @@
         <link href="Urlap.css" type="text/css" rel="stylesheet" />
         <title>Urlap</title>
         <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+        <script src="urlap.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <h1>Bejelntkezés</h1>
         <form id="ur">
             <label for="nev">Felhasználónév:</label><br />
-            <input type="text" name="nev"><br />
+            <input id="nev" type="text" name="nev"><br />
+            <span class="nev-hiba"></span>
 
             <label for="password">jelszó:</label><br />
             <input type="password" name="password"><br />

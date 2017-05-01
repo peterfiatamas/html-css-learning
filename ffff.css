@@ -2,6 +2,7 @@
     width: 40%;
     float: left;
     margin-top: 15px;
+    box-sizing: border-box;
 }
 .menu-tarolo{
     width: 60%;
@@ -41,7 +42,7 @@ body{
     background-color: #DBEDFF;
 }
 .cim-tarolo{
-    width: 800px;
+    width: 800px;;
     background-color: #24292E;
     margin-top: 100px;
     height: 400px;
@@ -59,4 +60,43 @@ body{
 .koszontes{
     font-size: 150%;
     text-align: center;
+}
+@media screen and (max-width: 850px){
+    .cim-tarolo{
+        max-width: 100%;
+        background-color: #24292E;
+        margin-top: 50px;
+        height: 400px;
+        position: absolute;
+        left: 0;
+        color: white;
+        text-align: left;
+        border-radius: 10px;
+        
+    }
+    .koszontes{
+        font-size: 150%;
+        text-align: left;
+        margin-left: 25px;
+    }
+    .menupontok{
+        color: white;
+        font-size: 100%;
+        font-style: oblique;
+        float: left;
+        padding: 5px;
+        border: 1px;
+        margin: 0px;
+    }
+    .menu-tarolo{
+        width: 100%;
+        float: left;
+        height: 300px;
+    }
+    body{
+        background-color: #0582a4;
+    }
+
+
+
 }

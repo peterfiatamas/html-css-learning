@@ -1,0 +1,60 @@
+#fejlec{
+    font-size: 150%;
+    padding: 10px;
+    border: 3px dotted black;
+    text-align: center;
+    background-image: url("http://st.depositphotos.com/1485510/4868/i/950/depositphotos_48680959-stock-photo-buddha-gold-statue-on-golden.jpg");
+}
+.tarolo-bal{
+    width: 25%;
+    float: left;
+    background-image: url("http://st.depositphotos.com/1485510/4868/i/950/depositphotos_48680959-stock-photo-buddha-gold-statue-on-golden.jpg");
+    background-attachment: fixed;    
+    height: 900px;
+}
+.tarolo-jobb{
+    width: 25%;
+    float: left;
+    background-image: url("http://st.depositphotos.com/1485510/4868/i/950/depositphotos_48680959-stock-photo-buddha-gold-statue-on-golden.jpg");
+    background-attachment: fixed;
+    height: 900px;
+}
+.tarolo-kozep{
+    width: 50%;
+    float: left;
+    background-image: url("http://st.depositphotos.com/1485510/4868/i/950/depositphotos_48680959-stock-photo-buddha-gold-statue-on-golden.jpg");        
+    height: 900px;    
+}
+.bejelentkezes-tarolo{
+    background-color: orange;
+    max-width: 80%;
+    height: auto;
+    text-align: center;
+    background-color: rgba(255,128,0,0.5);
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.szoveg{
+    margin: 20px;
+}
+#video{
+    width: 560px;
+    height: 360px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.menu-tarolo{
+    background-color: orange;
+    background-color: rgba(255,128,0,0.5);
+}
+.menu-hasab{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+.budha{
+    width: 200px;
+    height: auto;
+    position: relative;
+    left: 70px;
+}
