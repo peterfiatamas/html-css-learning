@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #97AFBD;
+    font-style: oblique;
+    font-size: 100%;
+    margin-top: 30px;
+}
+.tarolo{
+    width: 800px;
+    margin: 0 auto;
+}
+ul.menu div, ul.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: block;
+}
+ul.menu div{
+    cursor: pointer;
+    /* background: url('https://cdn.pixabay.com/photo/2012/04/12/19/53/download-30388_960_720.png') no-repeat 90% 50%;*/
+}
+ul.menu li{
+    float: left;
+    list-style: none;
+    font-size: 15px;
+    background-color: #9D63A6;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: 1px;
+    width: 140px;
+    text-align: center;
+    background: -moz-linear-gradient(top, #E19BEC, #9D63A6);
+    background:  -webkit-linear-gradient(top, #E19BEC, #9D63A6);
+}
+ul.menu li ul{
+    display: none;
+}
+ul.menu li ul li{}
+ .content{
+    background-color: #65828F;
+    color: white;
+    padding: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 1px;
+}
