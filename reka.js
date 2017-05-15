@@ -1,7 +1,6 @@
-$(document).ready(function () {
-
-    $("ul.menu div").click(function () {
-// console.log( "ready!" );//   
+$(document).ready(function(){
+    /*console.log("ready");*/
+    $("ul#menu div").click(function () {  
         $(this).parent().find("ul").slideDown("slow");
         $(this).parent().hover(
                 function () {
@@ -10,11 +9,6 @@ $(document).ready(function () {
         )
 
     });
-});
-$(function () {
-
-    $("div").click(function () {
-        $("body").css("background", "#ccc");
-    });
+    
 });
 

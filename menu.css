@@ -18,9 +18,19 @@ ul.menu div, ul.menu a{
     padding: 10px 30px;
     display: block;
 }
+ul.menu div, ul.menu a:hover{
+    background-color: yellow;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: block;
+}
+/*ul.menu li:hover{
+    background-color: yellow;
+}*/
 ul.menu div{
     cursor: pointer;
-    /* background: url('https://cdn.pixabay.com/photo/2012/04/12/19/53/download-30388_960_720.png') no-repeat 90% 50%;*/
+    background: url('C:\Tamás\Logok') no-repeat 90% 50%;
 }
 ul.menu li{
     float: left;
@@ -39,7 +49,7 @@ ul.menu li ul{
     display: none;
 }
 ul.menu li ul li{}
- .content{
+.content{
     background-color: #65828F;
     color: white;
     padding: 20px;
