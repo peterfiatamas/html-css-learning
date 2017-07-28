@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="ajax.css" type="text/css" rel="stylesheet" />
+        <title>Ajax</title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="ajax.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">
+		
+		$(document).ready(function ()
+			{
+				$('#mehet').click(function ()
+					{
+						$('div').load('szallitas.html #szallitas');
+					}
+				)
+			}
+		)
+		
+	</script>
+    </head>
+    <body>
+        <button id="mehet">mehet</button>
+        <div></div>
+    </body>
+</html>

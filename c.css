@@ -1,0 +1,40 @@
+#container{
+    background-color: orange;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+ul{
+
+    padding: 6px 10px 5px 10px;
+    margin: 0px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    margin-left: 10px;
+}
+
+
+
+li{
+    float: left;
+    list-style: none;
+    text-decoration: none;
+    background: -moz-linear-gradient(top, #E19BEC, #9D63A6);
+    background:  -webkit-linear-gradient(top, #E19BEC, #9D63A6);
+    margin-right: 1px;
+    padding: 10px 30px;
+    border-radius: 10px 10px 0 0;
+    width: 120px;
+}
+a{
+    text-decoration: none;/*aláhúzás*/
+}
+@media screen and (max-width: 740px){
+    
+}
